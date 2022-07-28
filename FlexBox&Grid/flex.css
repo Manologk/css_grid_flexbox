@@ -27,6 +27,7 @@ body{
     /* justify-items: center;
     align-items: center; */
     text-align: center;
+    font-size: 12px;
 }
 
 .item1{
@@ -37,4 +38,9 @@ body{
 .item3{
     margin-right: 8px;
     border-radius: 0 4px 4px 0;
+}
+
+.item1:hover, .item2:hover, .item3:hover{
+    color: #913fe2;
+    cursor: pointer;
 }
