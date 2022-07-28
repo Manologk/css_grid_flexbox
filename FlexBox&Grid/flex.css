@@ -1,0 +1,40 @@
+*{font-family: 'Fira Sans', sans-serif;}
+.bold{font-weight:bold;}
+.italic{font-style: italic;}
+.oblique{font-style: oblique;}
+
+body{
+    background-color: #16151d;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #222222;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 200px;
+    /* border: 10px dashed; */
+}
+
+.item1, .item2, .item3{
+    background-color: #333333;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    /* height: px; */
+    /* justify-items: center;
+    align-items: center; */
+    text-align: center;
+}
+
+.item1{
+    margin-left: 8px;
+    border-radius: 4px 0 0 4px;
+}
+
+.item3{
+    margin-right: 8px;
+    border-radius: 0 4px 4px 0;
+}
